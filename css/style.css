@@ -15,7 +15,7 @@ html, body{
 }
 body{
 	font-family: 'Sintony', sans-serif !important;
-	border-top:5px solid #42A5F5;
+	border-top:5px solid #2fa1bf;
 }
 body a{
 	text-decoration:none;
@@ -76,8 +76,8 @@ body a:hover{
 }
 /*---top-nav----*/
 .top-nav{
-	background:#6a737b;
-    border-bottom: 2px solid #42A5F5;
+	background:#89a637;
+    border-bottom: 3px solid #2fa1bf;
 }
 .top-nav ul li{
 	display:inline-block;
@@ -86,7 +86,7 @@ body a:hover{
 	border-right: 1px solid rgba(78, 78, 78, 0.57);
 }
 .top-nav li.active1> a, .top-nav li> a:hover {
-	background:#42a5f5;
+	background:#2fa1bf;
 }
 .top-nav li a{
 	padding: 15px 101px;
@@ -103,7 +103,7 @@ body a:hover{
 	font-family: 'Sintony', sans-serif;
 }
 .top-nav li a:hover{
-	background:#42a5f5 !important;
+	background:#2fa1bf !important;
 }
 .navbar-nav {
     float: none !important;
@@ -162,7 +162,7 @@ body a:hover{
 }
 .grids h5{
 	float: right;
-	width: 85%;
+	width: 68%;
 	background: url(../images/hd-bg.png) 0% 73% repeat-x;
 	display: inline-block;
 	padding: 10px;
@@ -174,12 +174,12 @@ body a:hover{
 	padding-right: 8px;
 }
 .active-grid {
-    background:#42a5f5;
+    background:#2fa1bf;
     color: #fff;
     padding: 1em 1.5em;
 }
 .active-grid:hover{
-	background:#6a737b;
+	background:#89a637;
 }
 .active-grid h3,.active-grid p{
 	color:#fff;
@@ -218,7 +218,7 @@ body a:hover{
 	color: #FFF !important;
 	font-size: 1.2em;
 	text-transform: uppercase;
-	background: #6a737b;
+	background: #89a637;
 	padding: 13px 10px;
 	display:block;
 	margin-top: 10px;
@@ -229,7 +229,7 @@ body a:hover{
 	transition: all 0.3s ease-out;
 }
 .big-b-btn a:hover{
-	background:#42a5f5;
+	background:#2fa1bf;
 	color:#fff;
 }
 .big-b-text span{
@@ -375,7 +375,7 @@ body a:hover{
 }
 /*---footer----*/
 .footer{
-	background:#2E2E2E;
+	background:#023923;
 	padding:4em 0em;
 }
 .footer-grid.center-grid ul {
@@ -466,7 +466,7 @@ body a:hover{
 .copy-right{
 	text-align:center;
 	padding:1.5em 0em;
-	background:#202020;
+	background:#054E61;
 }
 .copy-right p {
     font-family: 'Sintony', sans-serif;
@@ -1406,4 +1406,9 @@ body a:hover{
 .about-grid h5 {
     width: 29% !important;
 }
+}
+
+.fa-home:before {
+    content: "\f015";
+    font-size: 24px;
 }
